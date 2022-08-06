@@ -19,8 +19,6 @@ export default function Form({ formName }) {
     const data = Object.fromEntries(formData);
   }
 
-  console.log(formField)
-
   return (
     <div>
       <div className="center">
@@ -40,10 +38,8 @@ export default function Form({ formName }) {
 
         <div id="button">
           <button className="button" type="submit">Submit</button></div>
-        </div>
-
       </div>
-      
 
+    </div>
   );
 }
